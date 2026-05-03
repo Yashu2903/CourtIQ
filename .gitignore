@@ -1,0 +1,36 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+courtiq/
+
+# Python caches and tooling
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Environment files
+.env
+.env.*
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Generated data artifacts
+data/**/*.parquet
+data/**/*.csv
+data/**/*.json
+
+# Keep repository documentation and small reference files under data/
+!data/**/README.md
